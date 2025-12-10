@@ -1,0 +1,4 @@
+**/.vagrant/
+**/k3s_token
+**/kubectl
+**/playground_application/

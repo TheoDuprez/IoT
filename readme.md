@@ -103,6 +103,8 @@ Here, this simple vagrantfile only downloads an ubuntu box (like an image) and i
 - `sudo kubectl get nodes -o wide` to see the nodes in the cluster
 - `sudo kubectl get pod -A` to see the pods
 - `ip a show eth1` to see the configuration
+- `sudo systemctl status k3s` to see if k3s is running
+- `sudo systemctl status k3s-agent` to see if k3s-agent is running
 
 ## Part 2 : K3s and 3 apps (+ Ingress)
 
